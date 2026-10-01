@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frizerski salon - Nemanja Đurić</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#pocetna">Frizerski salon - Nemanja Đurić</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#pocetna">Početna</a></li>
+                <li class="nav-item"><a class="nav-link" href="#onama">O nama</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servisi">Servisi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="pocetna">
+    <div class="container-fluid mt-4 p-0">
+        <h1 class="text-center mb-4">Dobrodošli u Frizerski salon</h1>
+        <div id="carouselSalon" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselSalon" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselSalon" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselSalon" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/slika1 pocetna.jpg" class="d-block w-100" alt="Frizerski salon">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slika 2 pocetna.webp" class="d-block w-100" alt="Frizerska usluga">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slika3 poctena.jpg" class="d-block w-100" alt="Frizura">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSalon" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSalon" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+       
+    </div>
+</section>
+
+<!-- O NAMA -->
+<section id="onama">
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">O nama</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Naš frizerski salon je mesto namenjeno svima koji žele urednu i modernu frizuru. 
+                Trudimo se da svakom klijentu pružimo kvalitetnu uslugu i prijatnu atmosferu. 
+                U salonu nudimo različite usluge, kao što su šišanje, feniranje i farbanje kose. 
+                Posebnu pažnju posvećujemo željama i potrebama naših klijenata. Cilj nam je da svaki klijent bude zadovoljan svojim izgledom i uslugom koju dobije. 
+                Posetite naš salon i prepustite brigu o svojoj kosi našem timu.</p>
+                <p>Pored kvalitetnih usluga, važno nam je da salon bude prijatno i moderno mesto za naše klijente. 
+                Koristimo kvalitetne proizvode i trudimo se da pratimo savremene trendove u frizerskoj industriji. Svakom klijentu pristupamo individualno i savetujemo ga pri izboru frizure koja mu odgovara. 
+                Naš cilj je da spojimo kvalitet, profesionalnost i zadovoljstvo klijenata.</p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="servisi">
+    <div class="container-fluid mt-4 p-0">
+        <h2 class="text-center mb-4">Naši servisi</h2>
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./img/servisi slika1.jpg" class="card-img-top" style="height: 600px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sve vrste frizura</h5>
+                        <p class="card-text">Nudimo Vam sve moguce vrste frizure koje pozelite</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./img/foteljica.jpg" class="card-img-top" style="height: 600px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Fotelje</h5>
+                        <p class="card-text">Uz frizuru iz snova dobijate najugodnije fotelje za uzivanje</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./img/farba.jpg" class="card-img-top" style="height: 600px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Farbanje</h5>
+                        <p class="card-text">Promenite boju svoju frizure u koju god zelite.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="kontakt">
+    <div class="container mt-5 mb-5">
+        <h2 class="text-center mb-4">Kontakt</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="ime" class="form-label">Ime i prezime</label>
+                        <input type="text" class="form-control" id="ime" placeholder="Unesite ime i prezime">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">G-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Unesite email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="poruka" class="form-label">Poruka</label>
+                        <textarea class="form-control" id="poruka" rows="5" placeholder="Unesite poruku"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Posalji</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="mb-1">Frizerski salon - Nemanja Đurić</p>
+        <p class="mb-1">Nisevacka 16</p>
+        <p class="mb-0">2026 Frizerski salon - Nemanja Đurić</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
